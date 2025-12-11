@@ -46,6 +46,8 @@ $ npx prisma db seed
 - `POST /children` - Create a new child
 - `PATCH /children/:id` - Update a child
 - `DELETE /children/:id` - Delete a child
+- `PUT /children/:id/toys/:id` - Add a toy to a child
+- `DELETE /children/:id/toys/:id` - Remove a toy from a child
 
 ### Toys
 - `GET /toys` - Get all toys
